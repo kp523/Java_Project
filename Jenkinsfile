@@ -6,7 +6,7 @@ node
    { 
       bat 'mvn clean package'    
    }
-   stage ('site')
+   stage ('site12')
    {
    bat 'mvn site'
    }
