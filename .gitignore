@@ -1,3 +1,7 @@
 ignorefile.txt
 .env.txt
 tomcat/*
+
+logs/*
+!.gitkeep
+
