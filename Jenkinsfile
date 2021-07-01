@@ -10,6 +10,9 @@ node
    {
    bat 'mvn install'
    }
+   stage ('Deploy')
+     bat 'mvn deploy'
+  }
    
 }  
  
