@@ -8,7 +8,7 @@ node
    }
    stage ('site12')
    {
-   bat 'mvn site'
+   bat 'mvn install'
    }
    
 }  
