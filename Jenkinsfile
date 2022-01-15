@@ -4,7 +4,7 @@ node
  
    stage ('Compile')
    { 
-      bat 'mvn Compile'    
+      bat 'mvn compile'    
    }
    stage ('test')
    {
