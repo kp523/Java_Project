@@ -2,13 +2,21 @@ node
 {
    checkout scm
  
-   stage ('Package')
+   stage ('Compile')
    { 
-      bat 'mvn clean package'    
+      bat 'mvn Compile'    
    }
-   stage ('site12')
+   stage ('test')
    {
-   bat 'mvn install'
+   bat 'mvn test'
+   }
+   stage ('Package')
+   {
+   bat 'mvn clean install'
+   }
+   stage ('Documents')
+   {
+   bat 'mvn site'
    }
    
    
