@@ -8,15 +8,15 @@ node
    }
    stage ('test')
    {
-   bat 'mvn test'
+      bat 'mvn test'
    }
    stage ('Package')
    {
-   bat 'mvn clean install'
+      bat 'mvn clean install'
    }
    stage ('Documents')
    {
-   bat 'mvn site'
+      bat 'mvn site'
    }
    
    
