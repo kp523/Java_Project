@@ -23,6 +23,6 @@
           <version>3.7.1</version>
         </plugin>
     </plugins>
-    <finalName>JenkinsWar</finalName>
+    <finalName>JenkinsWar1</finalName>
   </build>
 </project>
